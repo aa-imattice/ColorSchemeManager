@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C624DD5B2A1C142A00C48B97 /* NextPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C624DD5A2A1C142A00C48B97 /* NextPage.swift */; };
+		C624DD5D2A1C169400C48B97 /* UIKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C624DD5C2A1C169400C48B97 /* UIKitView.swift */; };
+		C624DD632A1EA3A100C48B97 /* AppStorage+ColorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C624DD622A1EA3A100C48B97 /* AppStorage+ColorScheme.swift */; };
 		C66A8CC32A16913700FA6126 /* ColorSchemeManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66A8CC22A16913700FA6126 /* ColorSchemeManagerApp.swift */; };
 		C66A8CC52A16913700FA6126 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66A8CC42A16913700FA6126 /* ContentView.swift */; };
 		C66A8CC72A16913800FA6126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C66A8CC62A16913800FA6126 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C624DD5A2A1C142A00C48B97 /* NextPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextPage.swift; sourceTree = "<group>"; };
+		C624DD5C2A1C169400C48B97 /* UIKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitView.swift; sourceTree = "<group>"; };
+		C624DD622A1EA3A100C48B97 /* AppStorage+ColorScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppStorage+ColorScheme.swift"; sourceTree = "<group>"; };
 		C66A8CBF2A16913700FA6126 /* ColorSchemeManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorSchemeManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C66A8CC22A16913700FA6126 /* ColorSchemeManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSchemeManagerApp.swift; sourceTree = "<group>"; };
 		C66A8CC42A16913700FA6126 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,7 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				C66A8CC22A16913700FA6126 /* ColorSchemeManagerApp.swift */,
+				C624DD622A1EA3A100C48B97 /* AppStorage+ColorScheme.swift */,
 				C66A8CC42A16913700FA6126 /* ContentView.swift */,
+				C624DD5A2A1C142A00C48B97 /* NextPage.swift */,
+				C624DD5C2A1C169400C48B97 /* UIKitView.swift */,
 				C66A8CC62A16913800FA6126 /* Assets.xcassets */,
 				C66A8CC82A16913800FA6126 /* ColorSchemeManager.entitlements */,
 				C66A8CC92A16913800FA6126 /* Preview Content */,
@@ -139,8 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C624DD5B2A1C142A00C48B97 /* NextPage.swift in Sources */,
 				C66A8CC52A16913700FA6126 /* ContentView.swift in Sources */,
 				C66A8CC32A16913700FA6126 /* ColorSchemeManagerApp.swift in Sources */,
+				C624DD632A1EA3A100C48B97 /* AppStorage+ColorScheme.swift in Sources */,
+				C624DD5D2A1C169400C48B97 /* UIKitView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

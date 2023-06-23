@@ -7,11 +7,26 @@
 
 import SwiftUI
 
+typealias UDKeys = UserDefaultsKeys
+public enum UserDefaultsKeys: String {
+    case preferredColorScheme
+    case testString
+    
+    var key: String {
+        rawValue
+    }
+}
+
 @main
 struct ColorSchemeManagerApp: App {
+    @AppStorage(UserDefaultsKeys.preferredColorScheme.key) var preferredColorScheme: ColorScheme?
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Group {
+                ContentView()
+                    .preferredColorScheme(preferredColorScheme)
+            }
         }
     }
 }
